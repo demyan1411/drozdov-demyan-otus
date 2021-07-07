@@ -8,6 +8,7 @@ npm install
 ```
 
 ## Homework 1
+### 1.1
 ```
 cd drozdov-demyan-otus/hm-1/1
 node index.js
