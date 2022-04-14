@@ -1,0 +1,20 @@
+{
+  "name": "@demdjanium/utils",
+  "version": "1.0.3",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "demdjanium",
+  "license": "ISC",
+  "description": "Node.js utils",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demyan1411/-demdjanium-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/demyan1411/-demdjanium-utils/issues"
+  },
+  "homepage": "https://github.com/demyan1411/-demdjanium-utils#readme"
+}

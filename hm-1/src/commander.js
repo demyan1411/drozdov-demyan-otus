@@ -11,7 +11,7 @@ function myParseInt(value) {
 
 program
   .option('-d, --depth <number>', 'depth', myParseInt, 1000)
-  .option('-fn, --filename <string>', 'filename', 'object.json');
+  .option('-fn, --filename <string>', 'filename', 'test-objects/object.json');
 
 program.parse(process.argv);
 
