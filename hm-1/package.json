@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@demdjanium/utils": "^1.0.3",
-    "commander": "^9.0.0"
+    "@demdjanium/utils": "^1.0.10",
+    "commander": "^9.4.1"
   }
 }
