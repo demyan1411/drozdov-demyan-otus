@@ -1,13 +1,12 @@
 import path from 'path';
-import { readFile } from 'fs/promises';
+import { readFile } from 'node:fs/promises';
 
 export default async function loadJSON (file) {
   const filePath = path.resolve('./', file);
 
   try {
-    // https://nodejs.org/dist/latest-v16.x/docs/api/esm.html#no-json-module-loading //
     const json = JSON.parse(
-      await readFile(new URL(filePath, import.meta.url))
+      await readFile(new URL(filePath, import.meta.url), { encoding: 'utf8' })
     );
 
     return json;
