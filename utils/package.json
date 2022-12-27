@@ -1,6 +1,6 @@
 {
-  "name": "@demdjanium/utils",
-  "version": "1.0.4",
+  "name": "@demdjanium/utils2",
+  "version": "1.0.0",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -11,10 +11,11 @@
   "description": "Node.js utils",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/demyan1411/-demdjanium-utils.git"
+    "url": "https://github.com/demyan1411/drozdov-demyan-otus.git",
+    "directory": "utils"
   },
   "bugs": {
-    "url": "https://github.com/demyan1411/-demdjanium-utils/issues"
+    "url": "https://github.com/demyan1411/drozdov-demyan-otus/issues"
   },
-  "homepage": "https://github.com/demyan1411/-demdjanium-utils#readme"
+  "homepage": "https://github.com/demyan1411/drozdov-demyan-otus#readme"
 }
