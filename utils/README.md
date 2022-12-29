@@ -1,4 +1,6 @@
 # Utils
 
-loadJSON
-
+loadJSON,
+logTree,
+logDir,
+commander

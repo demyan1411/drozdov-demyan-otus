@@ -1,6 +1,6 @@
 {
   "name": "@demdjanium/utils",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/demyan1411/drozdov-demyan-otus/issues"
   },
-  "homepage": "https://github.com/demyan1411/drozdov-demyan-otus#readme"
+  "homepage": "https://github.com/demyan1411/drozdov-demyan-otus#readme",
+  "dependencies": {
+    "commander": "^9.4.1"
+  }
 }
