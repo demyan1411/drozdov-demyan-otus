@@ -1,3 +1,7 @@
+import {
+  preLast, pre, prePreLast, prePre
+} from './constants.js';
+
 export class LogTree {
   constructor () {
     this._options = {
@@ -10,11 +14,11 @@ export class LogTree {
   }
 
   _getPre (preStr, isLast) {
-    return `${preStr}${isLast ? '└' : '├'}──`;
+    return `${preStr}${isLast ? preLast : pre}`;
   }
 
   _getPrePre (preStr, isLast) {
-    return `${preStr}${isLast ? ' ' : '│'}  `;
+    return `${preStr}${isLast ? prePreLast : prePre}`;
   }
 
   _parse (tree, level = 0, preStr = '', isCurrentLast) {
