@@ -20,7 +20,7 @@ class LogTree {
   _parse (tree, level = 0, preStr = '', isCurrentLast) {
     if (!this._check(tree, level)) return '';
 
-    // 1-ый вариант решения
+    // 1-ый вариант решения //
     // const isTreeArray = Array.isArray(tree);
     // const children = isTreeArray ? tree : tree.items;
     // const firstStep = level === 0;
