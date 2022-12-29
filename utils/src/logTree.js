@@ -1,12 +1,12 @@
-class LogTree {
+export class LogTree {
   constructor () {
     this._options = {
       maxLevel: 1000
     };
   }
 
-  _check (tree, level) {
-    return typeof tree === 'object' && level < this._options.maxLevel;
+  _check (level) {
+    return level < this._options.maxLevel;
   }
 
   _getPre (preStr, isLast) {
@@ -18,7 +18,7 @@ class LogTree {
   }
 
   _parse (tree, level = 0, preStr = '', isCurrentLast) {
-    if (!this._check(tree, level)) return '';
+    if (!(this._check(level) && typeof tree === 'object')) return '';
 
     // 1-ый вариант решения //
     // const isTreeArray = Array.isArray(tree);
