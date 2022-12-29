@@ -1,0 +1,16 @@
+{
+  "name": "@demdjanium/visual-tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit test-objects"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@demdjanium/utils": "^1.0.13",
+    "commander": "^9.4.1"
+  }
+}
